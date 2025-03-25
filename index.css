@@ -779,6 +779,7 @@ margin-bottom: 18px;
     font-weight: 600;
     font-size: 14px;
     color: white;
+   
 
 
   }
@@ -786,10 +787,52 @@ margin-bottom: 18px;
   .footer-socials-button{
     background-color: transparent;
     color: white;
+             
+    width: 44px;
+    height: 44px;
+    border: 2px solid  white;
+    border-radius: 10px;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    }
+  
+
+
+  
+  .nav-socials-list-item{
+   
+  
+    
+  
+  }
+
+
+  .nav-socials-list{
+    display: flex;
+    gap: 12px;
   }
 
 
 
+
+  .footer-flex{
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+
+  .nav-item{
+    margin-bottom: 20px;
+  }
+
+
+  
+  
+  
 
 
 
