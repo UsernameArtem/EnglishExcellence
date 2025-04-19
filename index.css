@@ -837,4 +837,32 @@ input::-webkit-inner-spin-button {
   background-size: 492px;
 }
 .contacts-text-wrap {
+ padding: 0 20px;
+  position: absolute;
+  left: 0px;
+  bottom: 40px;
+  
+}
+
+
+.contacts-img-text{
+  font-family: "Manrope", serif;
+
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+color: #FFFFFF;
+text-align: center;
+}
+
+
+.contacts-img-description{
+  font-family: "Manrope", serif;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFFB2;
+  text-align: center;
+
 }
