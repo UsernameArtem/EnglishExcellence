@@ -434,6 +434,7 @@ input::-webkit-inner-spin-button {
   background: linear-gradient(84.6deg, #4dc274 2.25%, #bee8cc 131.25%);
   padding: 64px;
   border-radius: 30px;
+  padding-bottom: 120px;
 }
 .package-title {
   color: white;
@@ -462,8 +463,8 @@ input::-webkit-inner-spin-button {
 }
 
 .package-books {
-  width: 214px;
-  height: 263px;
+  width: 150px;
+  height: auto;
 }
 .package-list-item {
   display: flex;
@@ -499,15 +500,43 @@ input::-webkit-inner-spin-button {
 
 .package-second-wrap {
   display: flex;
+  position: relative;
+  z-index: 10;
   background-color: white;
-  padding: 64px;
+  padding: 30px;
   border-radius: 30px;
   align-items: center;
-  gap: 70px;
+  gap: 30px;
+  padding-right: 0;
 }
 
 .package-list {
-  margin-bottom: 39px;
+  margin-bottom: 20px;
+}
+.package-bg-wrap {
+  position: relative;
+}
+.package-bg1 {
+  position: absolute;
+  background-color: #d4fde1;
+  top: 0;
+  left: 0;
+  transform: rotate(8deg);
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  z-index: 2;
+}
+.package-bg2 {
+  position: absolute;
+  background-color: #ffffff80;
+  top: 0;
+  left: 0;
+  transform: rotate(-11deg);
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  z-index: 1;
 }
 
 /* Teachers */
@@ -837,32 +866,28 @@ input::-webkit-inner-spin-button {
   background-size: 492px;
 }
 .contacts-text-wrap {
- padding: 0 20px;
+  padding: 0 20px;
   position: absolute;
   left: 0px;
   bottom: 40px;
-  
 }
 
+.contacts-img-text {
+  font-family: 'Manrope', serif;
 
-.contacts-img-text{
-  font-family: "Manrope", serif;
-
-font-weight: 700;
-font-size: 40px;
-line-height: 48px;
-color: #FFFFFF;
-text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #ffffff;
+  text-align: center;
 }
 
-
-.contacts-img-description{
-  font-family: "Manrope", serif;
+.contacts-img-description {
+  font-family: 'Manrope', serif;
 
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #FFFFFFB2;
+  color: #ffffffb2;
   text-align: center;
-
 }
