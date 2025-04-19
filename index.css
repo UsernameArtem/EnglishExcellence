@@ -248,6 +248,7 @@ input::-webkit-inner-spin-button {
   border-radius: 12px;
   display: block;
   padding: 16px 64px;
+  
 }
 
 .main-button:hover{
@@ -750,6 +751,10 @@ background-color: white
 
   .footer-logo-span{
     color: #4DC274;
+    
+    top: 50%;
+    left: 50%;
+    
   }
 
 
@@ -866,6 +871,126 @@ background-color: white
     border:1px solid  #4DC274;
   }
   
+
+
+
+  /* contacts */
+
+
+  .contacts-title{
+     font-family: "Manrope", serif;
+     font-weight:700 ;
+     font-size: 40px;
+     line-height: 48px;
+     color: #121417;
+     text-align: center;
+     margin-bottom: 16px;
+
+  }
+
+  .contacts-subtitle{
+    margin-bottom: 64px;
+  }
+
+
+
+  .contacts-subtitle{
+    font-family: "Manrope", serif;
+    font-weight:400 ;
+    font-size: 18px;
+    line-height: 30px;
+    color: #12141780;
+
+ }
+
+ .contacts-img{
+  width: 492px;
+  height: 578px;
+object-fit: cover;
+border-radius: 30px;
+
+
+ }
+
+ .contacts-main-div{
+  display: flex;
+  gap: 32px;
+ }
+
+
+ .contacts-input{
+  display: block;
+  width: 100%;
+  border: 1px solid #1214171A;
+  border-radius: 12px;
+   font-family: "Manrope", serif;
+   outline: none;
+
+  padding: 16px;
+  margin-bottom: 18px;
+  
+ }
+
+ .contacts-form-div{
+  flex-grow: 1;
+ }
+
+ .contacts-input::placeholder{
+  font-weight: 400;
+  font-size: 16px;
+  color: #121417;   
+  
+
+ }
+
+
+ .contacts-main-button{
+  font-size: 18px;
+  
+  background-color:#4DC274 ;
+  border-radius: 12px;
+  display: block;
+  width: 100%;
+  padding: 16px;
+  color: #FFFFFF;
+  font-family: "Manrope", serif;
+
+  font-weight:700 ;
+  line-height: 28px;
+  margin-top: 32px;
+
+  
+ }
+ .contacts{
+  padding-bottom: 150px;
+
+ }
+
+ .contacts-text{
+  font-weight: 400;
+  font-size: 14px;
+  color: #12141780;
+  margin-top: 16px;
+ }
+
+ .contacts-img-wrap{
+  position:relative;
+
+ }
+.contacts-text-wrap{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background-color: #4DC274;
+  right: 0px;
+  height: 200px;
+  
+}
+
+
+
+
+ 
 
 
 
