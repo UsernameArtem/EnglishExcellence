@@ -248,13 +248,12 @@ input::-webkit-inner-spin-button {
   border-radius: 12px;
   display: block;
   padding: 16px 64px;
-  
 }
 
-.main-button:hover{
-  border: 1px solid #4DC274;
-  background-color:transparent;
-  color: #4DC274;
+.main-button:hover {
+  border: 1px solid #4dc274;
+  background-color: transparent;
+  color: #4dc274;
 }
 
 .arrow-button {
@@ -343,7 +342,7 @@ input::-webkit-inner-spin-button {
  */
 
 .lessons-subtitle {
-  font-family: "Manrope", serif;
+  font-family: 'Manrope', serif;
   font-weight: 400;
   font-size: 18x;
   line-height: 30px;
@@ -352,9 +351,8 @@ input::-webkit-inner-spin-button {
   text-align: center;
   width: 60%;
   margin: 0 auto;
-
 }
-.lessons-title{
+.lessons-title {
   font-family: 'Manrope', serif;
   font-weight: 700;
   font-size: 40px;
@@ -363,650 +361,480 @@ input::-webkit-inner-spin-button {
   margin-bottom: 16px;
   text-align: center;
   margin-bottom: 16px;
-
 }
-.item-title{
-  font-family: "Manrope", serif;
-  font-weight:700 ;
+.item-title {
+  font-family: 'Manrope', serif;
+  font-weight: 700;
   font-size: 20px;
   line-height: 24px;
   color: #121417;
   margin-bottom: 16px;
   text-align: center;
-
-
-  
-  
-  
-  
-
-
-
 }
-.item-price{
+.item-price {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-color: #121417;
-margin-bottom: 16px;
-text-align: center;
-
+  color: #121417;
+  margin-bottom: 16px;
+  text-align: center;
 }
-.item-text{
+.item-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-color: #12141780;
-margin-bottom: 16px;
-text-align: center;
-
+  color: #12141780;
+  margin-bottom: 16px;
+  text-align: center;
 }
 
-.item-buttons{
-  background-color: #4DC274;
-  color: #FFFFFF;
+.item-buttons {
+  background-color: #4dc274;
+  color: #ffffff;
   border-radius: 12px;
   padding: 16px 39px;
   width: 100%;
-
 }
 
-
-.item-buttons:hover{
-  border: 1px solid #4DC274;
+.item-buttons:hover {
+  border: 1px solid #4dc274;
   background-color: white;
-  color: #4DC274
-  
+  color: #4dc274;
 }
-.lessons{
+.lessons {
   padding: 150px;
-
-
 }
 
-
-
-.lessons-list-item{
+.lessons-list-item {
   border-radius: 30px;
   padding: 32px;
   width: 320px;
   border: 1px solid;
-  color: #4DC274;
+  color: #4dc274;
 }
 
-
-.lessons-list{
+.lessons-list {
   display: flex;
   gap: 32px;
 }
 
-
-.green-card{
-  background-color: #4DC274;
-  
+.green-card {
+  background-color: #4dc274;
 }
-.white-color{
-  color: #FFFFFFB2;
+.white-color {
+  color: #ffffffb2;
 }
 
-.white-border{
-border: 1px solid #FFFFFFB2 ;
-
+.white-border {
+  border: 1px solid #ffffffb2;
 }
-
 
 /* package */
-  .package-wrap{
-    background: linear-gradient(84.6deg, #4DC274 2.25%, #BEE8CC 131.25%);
-    padding: 64px;
-    border-radius: 30px;
+.package-wrap {
+  background: linear-gradient(84.6deg, #4dc274 2.25%, #bee8cc 131.25%);
+  padding: 64px;
+  border-radius: 30px;
+}
+.package-title {
+  color: white;
+  font-family: 'Manrope', serif;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  margin-bottom: 134px;
+}
+.package-text-span {
+  color: #bee8cc;
+}
 
-  }
-  .package-title{
-    color: white;
-    font-family: "Manrope", serif;
-    font-weight: 700;
-    font-size: 60px;
-line-height: 70px;
-margin-bottom: 134px;
-  }
-  .package-text-span{
-    color: #BEE8CC;
-  }
- 
+.package-info-title {
+  font-family: 'Manrope', serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #121417;
+  margin-bottom: 40px;
+}
 
-  .package-info-title{
-    font-family: "Manrope", serif;
-     font-weight: 700;
-    font-size: 40px;
-line-height: 48px;
-color: #121417;
-margin-bottom: 40px;
+.package-svg {
+  width: 28px;
+  height: 28px;
+}
 
-  }
+.package-books {
+  width: 214px;
+  height: 263px;
+}
+.package-list-item {
+  display: flex;
+}
+.package-text {
+  font-family: 'Manrope', serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #121417;
 
+  padding-left: 44px;
+  margin-bottom: 18px;
+}
 
-  .package-svg{
-    width: 28px;
-    height: 28px;
-  }
-
-  .package-books{
-    width:214px ;
-    height:263px ;
-   
-    
-  }
-  .package-list-item{
-    display: flex;
-  }
-  .package-text{
-    font-family: "Manrope", serif; 
-    font-weight: 700;
-    font-size: 20px;
-line-height: 24px;
-color: #121417;
-
-
-padding-left: 44px;
-margin-bottom: 18px;
-
-
-
-
-
-
-    
-
-  }
-
-
-  .package-button{
-  background-color: #4DC274;
+.package-button {
+  background-color: #4dc274;
   width: 306px;
   height: 60px;
-  border-radius:12px ;
-  color: #FFFFFF;
-  }
+  border-radius: 12px;
+  color: #ffffff;
+}
 
+.package-button:hover {
+  border: 1px solid #4dc274;
+  color: #4dc274;
+  background-color: white;
+}
 
-  .package-button:hover{
-    border: 1px solid #4DC274;
-color: #4DC274;
-background-color: white
-  }
+.package {
+  padding-top: 150px;
+}
 
-  .package{
-    padding-top: 150px;
-  }
+.package-second-wrap {
+  display: flex;
+  background-color: white;
+  padding: 64px;
+  border-radius: 30px;
+  align-items: center;
+  gap: 70px;
+}
 
-  .package-second-wrap{
-    display: flex;
-    background-color: white;
-    padding: 64px;
-    border-radius: 30px;
-    align-items: center;
-    gap: 70px;
+.package-list {
+  margin-bottom: 39px;
+}
 
+/* Teachers */
+.teachers-section {
+  padding-top: 150px;
+}
 
-  }
+.teachers-title {
+  font-family: 'Manrope', serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 16px;
+  text-align: center;
+}
 
-  .package-list{
-    margin-bottom: 39px;
+.teachers-subtitle {
+  font-family: 'Manrope', serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #12141780;
+  margin-bottom: 64px;
 
-  }
+  text-align: center;
+}
 
-  /* Teachers */
-  .teachers-section{
-    padding-top: 150px;
-  }
+.teachers-photo {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+.teachers-list-text {
+  font-family: 'Manrope', serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #12141780;
+  text-align: center;
+  padding-bottom: 150px;
+}
+.teachers-list {
+  display: flex;
+  gap: 32px;
+}
 
-  .teachers-title{
-
-    font-family: "Manrope", serif;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 48px;
-    margin-bottom: 16px;
-    text-align: center;
-
-
-  }
-
-  .teachers-subtitle{
-    font-family: "Manrope", serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
-    color: #12141780;
-    margin-bottom: 64px;
-    
-    text-align: center;
-    
-
-  }
-
-  .teachers-photo{
-    width: 150px;
-    height: 150px;
-    margin: 0 auto;
-    margin-bottom: 16px;
-
-  }
-  .teachers-list-text{
-    font-family: "Manrope", serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #12141780;
-    text-align: center;
-    padding-bottom: 150px;
-
-  }
-  .teachers-list{
-    display: flex;
-    gap: 32px;
-  }
-
-  .teachers-name{   
-    font-family: "Manrope", serif;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
-    color: #121417;  
-    text-align: center;
-    margin-bottom: 8px;
-
-  }
-
-
+.teachers-name {
+  font-family: 'Manrope', serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #121417;
+  text-align: center;
+  margin-bottom: 8px;
+}
 
 /* 
   comments */
 
-  .students-photo{
-    width: 50px;
-    height: 50px;
-  }
-  .comments-title{
+.students-photo {
+  width: 50px;
+  height: 50px;
+}
+.comments-title {
+  font-family: 'Manrope', serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #121417;
+  text-align: center;
+  margin-bottom: 16px;
+}
 
-    font-family: "Manrope", serif;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 48px;
-    color: #121417;  
-    text-align: center;
-    margin-bottom: 16px;
+.comments-subtitle {
+  font-family: 'Manrope', serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #12141780;
+  text-align: center;
+  margin-bottom: 64px;
+}
 
+.comment-list-item {
+  background-color: #f3f5f6;
+  border-radius: 30px;
+}
 
+.students-name {
+  font-family: 'Manrope', serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
 
-  }
+.comment-cathegory {
+  font-family: 'Manrope', serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff80;
+}
 
-  .comments-subtitle{
-    font-family: "Manrope", serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
-    color: #12141780;  
-    text-align: center;
-    margin-bottom: 64px;
+.comment {
+  font-family: 'Manrope', serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #12141780;
 
-  }
+  padding: 0px 16px;
+}
 
+.comments-list {
+  display: flex;
+  gap: 32px;
+}
+.students {
+  background-color: #4dc274;
+  border-radius: 15px;
+  padding: 14px 16px;
 
-  .comment-list-item{
-    background-color: #F3F5F6;
-    border-radius:30px ;
-  }
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
 
+.comment-list-item {
+  padding: 32px 16px;
+}
 
+.students-name {
+  margin-bottom: 2px;
+}
 
+.students {
+  margin-bottom: 32px;
+}
 
-  .students-name{
-    font-family: "Manrope", serif;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
-    color: #FFFFFF;
-
-  }
-
-
-
-  .comment-cathegory{
-    font-family: "Manrope", serif;
-    font-weight: 400;
-    font-size: 12px;
-    line-height:  16px;
-    color: #FFFFFF80;
-
-
-  }
-
-  .comment{
-    
-  
-    font-family: "Manrope", serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height:    24px;
-    color: #12141780;
-
-    padding: 0px 16px;
-
-  }
-
-
-
-
-
-  .comments-list{
-    display: flex;
-    gap: 32px;
-  }
-  .students{
-    background-color: #4DC274;
-    border-radius: 15px;
-    padding: 14px 16px;
-
-    display: flex;
-    gap: 8px;
-    align-items: center;
-    
-  }
-
-
-  .comment-list-item{
-
-    padding: 32px 16px;
-  }
-
-
-  .students-name{
-    margin-bottom: 2px;
-  }
-
-
-
-  .students{
-    margin-bottom: 32px;
-
-  }
-
-  .footer-logo-text{
-    font-family: 'Manrope', serif;
+.footer-logo-text {
+  font-family: 'Manrope', serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 27px;
   color: white;
-  
-  }
+}
 
+.footer {
+  background-color: #121417;
+  padding-top: 64px;
+}
 
-  .footer{
-    background-color: #121417;
-    padding-top: 64px;
-  }
+.footer-logo-span {
+  color: #4dc274;
 
+  top: 50%;
+  left: 50%;
+}
 
-  .footer-logo-span{
-    color: #4DC274;
-    
-    top: 50%;
-    left: 50%;
-    
-  }
+.footer-contacts-description {
+  font-family: 'Manrope', serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff99;
+  margin-bottom: 4px;
+}
 
+.footer-contact:hover {
+  color: #4dc274;
+}
 
-  .footer-contacts-description{
-    font-family: "Manrope", serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-    color: #FFFFFF99;
-    margin-bottom: 4px;
-    
+.footer-contact {
+  font-family: 'Manrope', serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: white;
+  margin-bottom: 16px;
+}
 
-  }
+.footer-logo-text {
+  margin-bottom: 32px;
+}
 
+.comments {
+  padding-bottom: 150px;
+}
 
-  .footer-contact:hover{
-    color: #4DC274;
-  }
+/* nav */
 
+.nav-button {
+  background-color: transparent;
+  font-family: 'Manrope', serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: white;
+}
 
-  .footer-contact{
-    font-family: "Manrope", serif;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 18px;
-    color: white;
-    margin-bottom: 16px;
+.nav-button:hover {
+  color: #4dc274;
+}
 
+.footer-socials-button {
+  background-color: transparent;
+  color: white;
 
+  width: 44px;
+  height: 44px;
+  border: 2px solid white;
+  border-radius: 10px;
+  display: flex;
 
+  align-items: center;
+  justify-content: center;
+}
 
-  }
+.nav-socials-list-item {
+}
 
+.nav-socials-list {
+  display: flex;
+  gap: 12px;
+}
 
-  .footer-logo-text{
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+}
 
-    margin-bottom: 32px;
+.nav-item {
+  margin-bottom: 20px;
+}
 
-  }
+.footer-socials-button:hover {
+  color: #4dc274;
+  border: 1px solid #4dc274;
+}
 
+/* contacts */
 
+.contacts-title {
+  font-family: 'Manrope', serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #121417;
+  text-align: center;
+  margin-bottom: 16px;
+}
 
-  .comments{
+.contacts-subtitle {
+  margin-bottom: 64px;
+}
 
-    padding-bottom: 150px;
-  }
+.contacts-subtitle {
+  font-family: 'Manrope', serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #12141780;
+}
 
-  /* nav */
-
-  .nav-button{
-    background-color: transparent;
-    font-family: 'Manrope', serif;
-    font-weight: 600;
-    font-size: 14px;
-    color: white;
-   
-
-
-  }
-
-
-  .nav-button:hover{
-    color: #4DC274;
-  }
-
-  .footer-socials-button{
-    background-color: transparent;
-    color: white;
-             
-    width: 44px;
-    height: 44px;
-    border: 2px solid  white;
-    border-radius: 10px;
-    display: flex;
-
-    align-items: center;
-    justify-content: center;
-
-    }
-  
-
-
-  
-  .nav-socials-list-item{
-   
-  
-    
-  
-  }
-
-
-  .nav-socials-list{
-    display: flex;
-    gap: 12px;
-  }
-
-
-
-
-  .footer-flex{
-    display: flex;
-    justify-content: space-between;
-
-  }
-
-
-  .nav-item{
-    margin-bottom: 20px;
-  }
-
-
-  .footer-socials-button:hover{
-    color: #4DC274;
-    border:1px solid  #4DC274;
-  }
-  
-
-
-
-  /* contacts */
-
-
-  .contacts-title{
-     font-family: "Manrope", serif;
-     font-weight:700 ;
-     font-size: 40px;
-     line-height: 48px;
-     color: #121417;
-     text-align: center;
-     margin-bottom: 16px;
-
-  }
-
-  .contacts-subtitle{
-    margin-bottom: 64px;
-  }
-
-
-
-  .contacts-subtitle{
-    font-family: "Manrope", serif;
-    font-weight:400 ;
-    font-size: 18px;
-    line-height: 30px;
-    color: #12141780;
-
- }
-
- .contacts-img{
-  width: 492px;
-  height: 578px;
-object-fit: cover;
-border-radius: 30px;
-
-
- }
-
- .contacts-main-div{
+.contacts-main-div {
   display: flex;
   gap: 32px;
- }
+}
 
-
- .contacts-input{
+.contacts-input {
   display: block;
   width: 100%;
-  border: 1px solid #1214171A;
+  border: 1px solid #1214171a;
   border-radius: 12px;
-   font-family: "Manrope", serif;
-   outline: none;
+  font-family: 'Manrope', serif;
+  outline: none;
 
   padding: 16px;
   margin-bottom: 18px;
-  
- }
+}
 
- .contacts-form-div{
+.contacts-form-div {
   flex-grow: 1;
- }
+}
 
- .contacts-input::placeholder{
+.contacts-input::placeholder {
   font-weight: 400;
   font-size: 16px;
-  color: #121417;   
-  
+  color: #121417;
+}
 
- }
-
-
- .contacts-main-button{
+.contacts-main-button {
   font-size: 18px;
-  
-  background-color:#4DC274 ;
+
+  background-color: #4dc274;
   border-radius: 12px;
   display: block;
   width: 100%;
   padding: 16px;
-  color: #FFFFFF;
-  font-family: "Manrope", serif;
+  color: #ffffff;
+  font-family: 'Manrope', serif;
 
-  font-weight:700 ;
+  font-weight: 700;
   line-height: 28px;
   margin-top: 32px;
-
-  
- }
- .contacts{
+}
+.contacts {
   padding-bottom: 150px;
+}
 
- }
-
- .contacts-text{
+.contacts-text {
   font-weight: 400;
   font-size: 14px;
   color: #12141780;
   margin-top: 16px;
- }
-
- .contacts-img-wrap{
-  position:relative;
-
- }
-.contacts-text-wrap{
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
-  background-color: #4DC274;
-  right: 0px;
-  height: 200px;
-  
 }
 
-
-
-
- 
-
-
-
-  
-  
-  
-
-
-
-
-
-  
-
-
-
-
-
- 
-
+.contacts-img-wrap {
+  position: relative;
+  width: 492px;
+  height: 578px;
+  background-image: url('./images/input-girl.png');
+  background-color: #4dc274;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 492px;
+}
+.contacts-text-wrap {
+}
