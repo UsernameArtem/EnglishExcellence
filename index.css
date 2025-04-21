@@ -248,6 +248,8 @@ input::-webkit-inner-spin-button {
   border-radius: 12px;
   display: block;
   padding: 16px 64px;
+  width: 306px;
+  text-align: center;
 }
 
 .main-button:hover {
@@ -394,6 +396,9 @@ input::-webkit-inner-spin-button {
   border-radius: 12px;
   padding: 16px 39px;
   width: 100%;
+  display: block;
+  text-align: center;
+
 }
 
 .item-buttons:hover {
@@ -890,4 +895,17 @@ input::-webkit-inner-spin-button {
   line-height: 24px;
   color: #ffffffb2;
   text-align: center;
+}
+
+.to-top-button{
+  font-size: 20px;
+  color: #4dc274;
+  border: 2px solid #4dc274;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-weight: 900;
+  border-radius: 50%;
+  background-color: transparent;
+  padding: 15px 20px;
 }
