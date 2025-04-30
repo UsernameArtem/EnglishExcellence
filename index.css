@@ -491,6 +491,12 @@ input::-webkit-inner-spin-button {
   height: 60px;
   border-radius: 12px;
   color: #ffffff;
+  display: block;
+  text-align: center;
+  padding: 16px;
+  font-family: 'Manrope', serif ;
+  font-size: 700;
+  font-weight: 18px;
 }
 
 .package-button:hover {
@@ -723,6 +729,7 @@ input::-webkit-inner-spin-button {
   line-height: 18px;
   color: white;
   margin-bottom: 16px;
+  display: block;
 }
 
 .footer-logo-text {
