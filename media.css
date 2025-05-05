@@ -1,0 +1,25 @@
+/* .text {
+  color: green;
+  font-size: 50px;
+} */
+/* @media screen and (min-width: 1024px) {
+  .text {
+    color: brown;
+  }
+}
+@media screen and (min-width: 1030px) {
+  .text {
+    color: rgb(165, 149, 42);
+  }
+}
+@media screen and (min-width: 1040px) {
+  .text {
+    color: rgb(83, 42, 165);
+  }
+} */
+
+/* @media screen and (max-width: 1040px) {
+  .text {
+    color: rgb(83, 42, 165);
+  }
+} */
