@@ -151,7 +151,7 @@ input::-webkit-inner-spin-button {
 }
 /* font-family: "Manrope", serif; */
 .container {
-  max-width: 335px;
+  max-width: 375px;
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -250,10 +250,20 @@ input::-webkit-inner-spin-button {
   background: linear-gradient(95.97deg, rgba(0, 0, 0, 0.4) 36.36%, rgba(0, 0, 0, 0) 51.43%),
     url('./images/hero_background.webp');
   position: relative;
-
+  background-position: center;
   height: 629px;
   background-size: cover;
-  padding: 164px 64px;
+  padding: 164px 20px;
+}
+@media screen and (min-width: 768px) {
+  .hero-wrap {
+    padding: 164px 32px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .hero-wrap {
+    padding: 164px 64px;
+  }
 }
 
 .hero-title {
@@ -263,29 +273,19 @@ input::-webkit-inner-spin-button {
   line-height: 40px;
   color: white;
   margin-bottom: 32px;
-  
 }
-@media  screen and   (min-width:768px) {
-  .hero-title{
+@media screen and (min-width: 768px) {
+  .hero-title {
     font-size: 60px;
     line-height: 70px;
     width: 488px;
-
-
-    
   }
-  
 }
 
-@media  screen and   (min-width:1024px) {
-  .hero-title{
-   
+@media screen and (min-width: 1024px) {
+  .hero-title {
     width: 564px;
-    
-
-    
   }
-  
 }
 .hero-title-span {
   font-family: 'Manrope', serif;
@@ -294,22 +294,19 @@ input::-webkit-inner-spin-button {
   line-height: 40px;
   color: #bee8cc;
 }
-@media screen and (min-width:768px)
-{
-  .hero-title-span{
+@media screen and (min-width: 768px) {
+  .hero-title-span {
     font-family: 'Manrope', serif;
-  font-weight: 700;
-  font-size: 60px;
-  line-height: 70px;
-  color: #bee8cc;
-    
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    color: #bee8cc;
   }
 }
 
 .main-button {
   background-color: #4dc274;
   color: white;
-
 
   border-radius: 12px;
   display: block;
@@ -318,22 +315,13 @@ input::-webkit-inner-spin-button {
   text-align: center;
   font-size: 14px;
   line-height: 18px;
-
-
 }
 
-
-
-@media screen and (min-width:768px){
-  .main-button
-  {
+@media screen and (min-width: 768px) {
+  .main-button {
     font-size: 18px;
     line-height: 28px;
     width: 306px;
-    
-
-
-
   }
 }
 
@@ -355,15 +343,12 @@ input::-webkit-inner-spin-button {
   bottom: 32px;
   right: 32px;
 }
-@media screen and (min-width:768px) {
-  .arrow-button{
+@media screen and (min-width: 768px) {
+  .arrow-button {
     width: 48px;
     height: 48px;
   }
-  
 }
-
-
 
 /* aboutUs */
 
