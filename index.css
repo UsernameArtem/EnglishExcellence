@@ -186,9 +186,13 @@ input::-webkit-inner-spin-button {
 }
 .navigation-list {
   gap: 20px;
-  display: flex;
+  display: none;
 }
-
+@media screen and (min-width: 1024px) {
+  .navigation-list {
+    display: flex;
+  }
+}
 .socials-img {
   width: 28px;
   height: 28px;
@@ -209,10 +213,26 @@ input::-webkit-inner-spin-button {
 }
 
 .socials-list {
-  display: flex;
-  gap: 12px;
+  display: none;
 }
 
+@media screen and (min-width: 1024px) {
+  .socials-list {
+    display: flex;
+    gap: 12px;
+  }
+}
+
+.mob-menu {
+  width: 32px;
+  height: 32px;
+  display: block;
+}
+@media screen and (min-width: 1024px) {
+  .mob-menu {
+    display: none;
+  }
+}
 .header-wrap {
   display: flex;
   justify-content: space-between;
@@ -248,20 +268,46 @@ input::-webkit-inner-spin-button {
 .hero-title-span {
   font-family: 'Manrope', serif;
   font-weight: 700;
+  font-size: 38px;
+  line-height: 40px;
+  color: #bee8cc;
+}
+@media screen and (min-width:768px)
+{
+  .hero-title-span{
+    font-family: 'Manrope', serif;
+  font-weight: 700;
   font-size: 60px;
   line-height: 70px;
   color: #bee8cc;
+    
+  }
 }
 
 .main-button {
   background-color: #4dc274;
   color: white;
 
+
   border-radius: 12px;
   display: block;
   padding: 16px 64px;
   width: 306px;
   text-align: center;
+  font-size: 14px;
+  line-height: 18px;
+
+}
+
+
+@media screen and (min-width:768px){
+  .main-button
+  {
+    font-size: 18px;
+    line-height: 28px;
+
+
+  }
 }
 
 .main-button:hover {
