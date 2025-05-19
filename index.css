@@ -355,18 +355,33 @@ input::-webkit-inner-spin-button {
 .aboutUs-title {
   font-family: 'Manrope', serif;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 32px;
   line-height: 36px;
   color: #121417;
   margin-bottom: 16px;
   text-align: center;
 }
+@media screen and (min-witdh:768px){
+  .aboutUs-title{
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
 .aboutUs-description {
   color: #12141780;
   font-family: 'Manrope', serif;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 14px;
+  line-height: 24px;
+}
+@media screen and (min-witdh:768px){
+  .aboutUs-description
+  {
+    
+    font-size: 18px;
+    line-height: 18px;
+    
+  }
 }
 
 .card-number {
@@ -408,7 +423,13 @@ input::-webkit-inner-spin-button {
 .cards-wrap {
   display: flex;
   gap: 32px;
-  margin-top: 64px;
+  margin-top: 40px;
+}
+@media screen  and (min-width:768px){
+  .cards-wrap{
+    margin-top: 64px;
+  }
+  
 }
 
 .aboutUs-list {
