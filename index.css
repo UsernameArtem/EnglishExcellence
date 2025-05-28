@@ -441,6 +441,14 @@ input::-webkit-inner-spin-button {
   margin-top: 40px; */
 }
 
+@media screen and ( min-width:1024px ) { 
+  .crads-wrap{
+    
+  }
+
+  
+}
+
 .aboutUs-list {
   display: flex;
   gap: 32px;
@@ -449,6 +457,7 @@ input::-webkit-inner-spin-button {
 @media screen and (min-width: 768px) {
   .aboutUs-list {
     display: flex;
+    justify-content: center;
   }
 }
 .aboutUs-section {
