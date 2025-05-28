@@ -374,11 +374,13 @@ input::-webkit-inner-spin-button {
   font-size: 14px;
   line-height: 24px;
   text-align: center;
+  margin-bottom: 40px;
 }
 @media screen and (min-witdh: 768px) {
   .aboutUs-description {
     font-size: 18px;
     line-height: 18px;
+    margin-bottom: 64px;
   }
 }
 
@@ -394,14 +396,19 @@ input::-webkit-inner-spin-button {
 .card-text {
   font-family: 'Manrope', serif;
   font-weight: 700;
-  font-size: 20x;
+  font-size: 20px;
   line-height: 24px;
 }
 .aboutUs-card {
-  width: 325px;
+  width: 100%;
   background-color: #f3f5f6;
   padding: 32px;
   border-radius: 30px;
+}
+@media screen and (min-width: 768px) {
+  .aboutUs-card {
+    width: 336px;
+  }
 }
 /* відстань від картки до картки 32 пх
 між ними 32пх
@@ -416,24 +423,32 @@ input::-webkit-inner-spin-button {
   border-radius: 30px;
   background-color: #4dc274;
   padding: 70px 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+@media screen and( min-width:768px) {
+  .woman-card {
+    padding: 16px 28px;
+  }
 }
 
 .cards-wrap {
   /* display: flex;
   gap: 32px;
   margin-top: 40px; */
-  
-}
-@media screen and (min-width: 768px) {
-  .cards-wrap {
-    margin-top: 64px;
-  }
 }
 
 .aboutUs-list {
   display: flex;
   gap: 32px;
   flex-wrap: wrap;
+}
+@media screen and (min-width: 768px) {
+  .aboutUs-list {
+    display: flex;
+  }
 }
 .aboutUs-section {
   padding-top: 96px;
