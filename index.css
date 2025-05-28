@@ -410,6 +410,11 @@ input::-webkit-inner-spin-button {
     width: 336px;
   }
 }
+@media screen and (min-width: 1024px) {
+  .aboutUs-card {
+    width: 310px;
+  }
+}
 /* відстань від картки до картки 32 пх
 між ними 32пх
 
@@ -434,19 +439,22 @@ input::-webkit-inner-spin-button {
     padding: 16px 28px;
   }
 }
-
+@media screen and (min-width: 1024px) {
+  .woman-card {
+    width: 310px;
+  }
+}
 .cards-wrap {
   /* display: flex;
   gap: 32px;
   margin-top: 40px; */
 }
 
-@media screen and ( min-width:1024px ) { 
-  .crads-wrap{
-    
+@media screen and (min-width: 1024px) {
+  .cards-wrap {
+    display: flex;
+    gap: 32px;
   }
-
-  
 }
 
 .aboutUs-list {
