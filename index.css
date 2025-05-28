@@ -428,7 +428,8 @@ input::-webkit-inner-spin-button {
   align-items: center;
   margin-top: 20px;
 }
-@media screen and( min-width:768px) {
+
+@media screen and (min-width: 768px) {
   .woman-card {
     padding: 16px 28px;
   }
