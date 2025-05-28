@@ -419,9 +419,10 @@ input::-webkit-inner-spin-button {
 }
 
 .cards-wrap {
-  display: flex;
+  /* display: flex;
   gap: 32px;
-  margin-top: 40px;
+  margin-top: 40px; */
+  
 }
 @media screen and (min-width: 768px) {
   .cards-wrap {
